@@ -343,7 +343,7 @@ kombu==4.6.9 \
     --hash=sha256:ab0afaa5388dd2979cbc439d3623b86a4f7a58d41f621096bef7767c37bc2505 \
     --hash=sha256:aece08f48706743aaa1b9d607fee300559481eafcc5ee56451aa0ef867a3be07 \
     # via -r requirements/default.in, celery
-lxml==4.5.2 \
+lxml==4.9.1 \
     --hash=sha256:05a444b207901a68a6526948c7cc8f9fe6d6f24c70781488e32fd74ff5996e3f \
     --hash=sha256:08fc93257dcfe9542c0a6883a25ba4971d78297f63d7a5a26ffa34861ca78730 \
     --hash=sha256:107781b213cf7201ec3806555657ccda67b1fccc4261fb889ef7fc56976db81f \
@@ -483,7 +483,7 @@ premailer==3.7.0 \
     --hash=sha256:5eec9603e84cee583a390de69c75192e50d76e38ef0292b027bd64923766aca7 \
     --hash=sha256:c7ac48986984a810afea5147bc8410a8fe0659bf52f357e78b28a1b949209b91 \
     # via -r requirements/default.in
-protobuf==3.13.0 \
+protobuf==3.18.3 \
     --hash=sha256:0bba42f439bf45c0f600c3c5993666fcb88e8441d011fad80a11df6f324eef33 \
     --hash=sha256:1e834076dfef9e585815757a2c7e4560c7ccc5962b9d09f831214c693a91b463 \
     --hash=sha256:339c3a003e3c797bc84499fa32e0aac83c768e67b3de4a5d7a5a9aa3b0da634c \
@@ -659,7 +659,7 @@ uritemplate==3.0.1 \
     --hash=sha256:07620c3f3f8eed1f12600845892b0e036a2420acf513c53f7de0abd911a5894f \
     --hash=sha256:5af8ad10cec94f215e3f48112de2022e1d5a37ed427fbd88652fa908f2ab7cae \
     # via google-api-python-client
-urllib3==1.25.10 \
+urllib3==1.26.5 \
     --hash=sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a \
     --hash=sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461 \
     # via botocore, elasticsearch, requests, sentry-sdk
