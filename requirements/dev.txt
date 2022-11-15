@@ -94,7 +94,7 @@ filelock==3.0.12 \
     --hash=sha256:18d82244ee114f543149c66a6e0c14e9c4f8a1044b5cdaadd0f82159d6a6ff59 \
     --hash=sha256:929b7d63ec5b7d6b71b0fa5ac14e030b3f70b75747cef1b10da9b879fef15836 \
     # via virtualenv
-flower==0.9.5 \
+flower==1.2.0 \
     --hash=sha256:56916d1d2892e25453d6023437427fc04706a1308e0bd4822321da34e1643f9c \
     --hash=sha256:71be02bff7b2f56b0a07bd947fb3c748acba7f44f80ae88125d8954ce1a89697 \
     # via -r requirements/dev.in
@@ -324,7 +324,7 @@ typing-extensions==3.7.4.3 \
     --hash=sha256:99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c \
     --hash=sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f \
     # via black
-ujson==4.0.1 \
+ujson==5.4.0 \
     --hash=sha256:078808c385036cba73cad96f498310c61e9b5ae5ac9ea01e7c3996ece544b556 \
     --hash=sha256:0a2e1b211714eb1ec0772a013ec9967f8f95f21c84e8f46382e9f8a32ae781fe \
     --hash=sha256:0f412c3f59b1ab0f40018235224ca0cf29232d0201ff5085618565a8a9c810ed \
@@ -367,3 +367,4 @@ wrapt==1.12.1 \
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
