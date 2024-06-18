@@ -95,3 +95,4 @@ toml==0.10.1 \
 # WARNING: The following packages were not pinned, but pip requires them to be
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # setuptools
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
