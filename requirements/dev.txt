@@ -367,3 +367,5 @@ wrapt==1.12.1 \
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # pip
 # setuptools
+django>=4.2.21 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
